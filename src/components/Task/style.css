@@ -1,0 +1,40 @@
+.TaskCard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid rgb(100, 100, 100);
+    margin: .5rem;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.TaskCard:hover{
+    background-color: rgba(121, 237, 255, 0.312);
+    cursor: pointer;
+}
+
+.Actions{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: .3rem;
+    margin-left: auto;
+}
+
+.Info{
+    gap: .2rem;
+    margin-right: .5rem;
+}
+
+.Info h2{
+    color: black;
+    margin: 0;
+    text-align: left;
+}
+.Info p{
+    color: black;
+    margin-top: .5rem;
+    text-align: justify;
+    border-top: 1px solid #494949;
+}
